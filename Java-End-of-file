@@ -1,0 +1,19 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+/*
+https://www.hackerrank.com/challenges/java-end-of-file/problem
+*/
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+        
+        int i=1;
+        while(sc.hasNext()){
+            String word=sc.nextLine();
+            System.out.println(i+" "+ word);
+            i++;
+        }
+    }
+}
