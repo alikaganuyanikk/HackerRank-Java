@@ -2,11 +2,9 @@ import java.util.Scanner;
 
 public class Solution {
 /*
-
 https://www.hackerrank.com/challenges/java-stdin-stdout/problem
 You can access the question from here.
 */
-
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int i = scan.nextInt();
@@ -15,8 +13,6 @@ You can access the question from here.
         scan.nextLine();
         String s = scan.nextLine();
         
-        
-
         System.out.println("String: " + s);
         System.out.println("Double: " + d);
         System.out.println("Int: " + i);
