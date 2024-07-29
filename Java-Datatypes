@@ -2,7 +2,6 @@ import java.util.*;
 import java.io.*;
 import java.math.*;
 
-
 class Solution{
     public static void main(String []argh)
     {
@@ -10,7 +9,6 @@ class Solution{
       https://www.hackerrank.com/challenges/java-datatypes/problem
     */
       
-
         Scanner sc = new Scanner(System.in);
         int t=sc.nextInt();
 
